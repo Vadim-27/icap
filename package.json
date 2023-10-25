@@ -2,7 +2,7 @@
   "name": "assembly",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Vadim-27.github.io/icap/",
+  "homepage": "https://icap-brown.vercel.app/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
     "@testing-library/jest-dom": "^5.16.3",
