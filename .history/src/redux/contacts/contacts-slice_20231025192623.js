@@ -44,7 +44,18 @@ const contactsSlice = createSlice({
         store.loading = false;
         store.error = payload;
       });
-      
+      // .addCase(fetchDeleteContacts.pending, store => {
+      //   store.loading = true;
+      // })
+      // .addCase(fetchDeleteContacts.fulfilled, (store, { payload }) => {
+      //   store.loading = false;
+      //   const index = store.items.findIndex(item => item.id === payload);
+      //   store.items.splice(index, 1);
+      // })
+      // .addCase(fetchDeleteContacts.rejected, (store, { payload }) => {
+      //   store.loading = false;
+      //   store.error = payload;
+      // });
   }
 
 

@@ -16,7 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <BrowserRouter basename="icap">
             <App />
           </BrowserRouter>
-        
+        {/* </AuthLayout> */}
       </PersistGate>
     </Provider>
   </React.StrictMode>

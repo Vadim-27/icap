@@ -45,7 +45,6 @@ const contactsSlice = createSlice({
         store.error = payload;
       });
       
-  }
 
 
 });
