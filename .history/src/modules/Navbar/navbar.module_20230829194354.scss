@@ -1,0 +1,35 @@
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.link {
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: #E6BB91;
+    display: inline-block;
+    padding: 10px 0px;
+    font-family: Jost-Medium;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.link:global(.active) {
+    font-weight: bold;
+   
+   position: relative;
+    
+}
+
+.link:global(.active)::after {
+    content: "";
+    position: absolute;
+    bottom: 10px; 
+    left: 0;
+    width: 100%;
+    border-bottom: 5px solid; 
+}

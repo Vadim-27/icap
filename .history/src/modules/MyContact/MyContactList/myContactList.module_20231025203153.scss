@@ -1,0 +1,79 @@
+.hederTableList{
+  padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+
+  }
+.contactList{
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: #1686D1 solid 3px;
+    box-shadow: 0px 4px 20px rgba(135, 161, 28, 0.4) inset;
+
+
+}
+.wrapperItem{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.formContactList{
+  display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.contactItemHederTable{
+  min-width: 160px;
+    color: var(--primary-primary);
+font-family: Jost-Medium;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.contactItem{
+    width: 160px;
+    color: var(--primary-primary);
+font-family: Jost-Medium;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.contactList:nth-child(1) {
+    border-top: #87A11C solid 3px;
+
+    box-shadow: 0px 8px 20px rgba(135, 161, 28, 0.4) inset;
+
+}
+.myListInput{
+  width: 160px;
+    color: var(--primary-primary);
+font-family: Jost-Medium;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+border-radius: 5px;
+}
+.btn{
+
+    width: 40px;
+  height: 40px;
+    border-radius: 50px;
+    border: none;
+}
+.btn:hover{
+    background-color: rgba(135, 161, 28, 0.4);
+}

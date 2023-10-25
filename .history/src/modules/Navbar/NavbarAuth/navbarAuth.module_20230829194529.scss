@@ -1,0 +1,38 @@
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin-left: auto;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+.link {
+    display: inline-block;
+    
+    
+    
+    margin: 0 5px;
+    text-decoration: none;
+    padding: 10px 0px;
+    color: #E6BB91;
+font-family: Jost-Medium;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+    
+}
+.link:global(.active) {
+        font-weight: bold;
+         position: relative;
+    }
+.link:global(.active)::after {
+    content: "";
+    position: absolute;
+    bottom: 10px; 
+    left: 0;
+    width: 100%;
+    border-bottom: 5px solid; 
+}

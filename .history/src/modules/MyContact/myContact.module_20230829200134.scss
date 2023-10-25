@@ -1,0 +1,44 @@
+
+.contactWrapper{
+  display: block;
+  width: 100%;
+}
+.title {
+  
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+  color: var(--primary-primary);
+font-family: Jost-Medium;
+font-size: 64px;
+font-style: normal;
+font-weight: 500;
+line-height: 58px;
+}
+.titleSection{
+  text-align: center;
+   padding: 20px;
+  color: var(--primary-primary);
+font-family: Jost-Medium;
+font-size: 44px;
+font-style: normal;
+font-weight: 500;
+line-height: 58px;
+}
+
+.markupComponent{
+  display: flex;
+}
+.message {
+ align-items: center;
+  padding: 20px;
+    color: var(--primary-primary);
+font-family: Jost-Medium;
+font-size: 44px;
+font-style: normal;
+font-weight: 500;
+line-height: 58px;
+ border-top: #87A11C solid 3px;
+ border-bottom: #87A11C solid 3px;
+}
