@@ -9,7 +9,8 @@ import NavbarAuth from "./NavbarAuth/NavbarAuth";
 
 
 const Navbar = () => {
-  
+  // const isLogin = useSelector(isUserLogin);
+  // const filteredItems = !isLogin ? items.filter(item => !item.private) : items;
 
      const elements = items.map(({ id, text, link }) => (
        <li key={id}>
