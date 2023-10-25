@@ -1,0 +1,26 @@
+.wrapper{display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+}
+.title{
+    margin-top: 340px;
+     padding: 30px;
+  color: var(--primary-primary);
+font-family: Jost-Medium;
+font-size: 64px;
+font-style: normal;
+font-weight: 500;
+line-height: 58px;
+}
+.text{
+    padding: 20px;
+  font-family: Jost-Medium;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  color: var(--primary-primary);
+}

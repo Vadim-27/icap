@@ -1,0 +1,42 @@
+.wrapper{
+   display: flex;
+    margin-left: auto;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    text-align: center;
+  font-weight: bold;
+}
+.userLog {
+  text-align: center;
+  font-weight: bold;
+}
+.userName{
+  color: #E6BB91;
+font-family: Jost-Medium;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.btnUserLog {
+  margin-left: 10px;
+  
+  border: none;
+  background-color: #1E2104;
+  border-radius: 5px;
+  
+  
+  cursor: pointer;
+  
+     color: #E6BB91;
+font-family: Jost-Regular;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.btnUserLog:hover {
+  background-color: rgba(135, 161, 28, 0.4);
+  color: #fff;
+}
