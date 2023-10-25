@@ -18,10 +18,10 @@ export const App = () => {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/contacts" element={<ContactsPage />} />
-
+          
 
           <Route path="/login" element={<LoginPage />} />
-          
+          {/* </Route> */}
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </Suspense>
